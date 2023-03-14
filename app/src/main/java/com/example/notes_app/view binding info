@@ -1,0 +1,16 @@
+View Binding
+-- it is to access views from layouts to your code directly without using findViewById
+-- so th binding we were using previously like
+
+first in layout we will put all views in <layout> and then in activity,
+val binding = ActivityMainBinding()
+binding.textView
+-so this was view binding we were using and was
+
+-data binding is like we are creating variables and directly using them to redirect out data from them in layout file
+<data>
+<variable
+name=""
+type="/>
+</data>
+this is true data binding.
